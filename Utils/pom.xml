@@ -27,6 +27,7 @@
         <commons-configuration2.version>2.1</commons-configuration2.version>
         <commons-digester3.version>3.2</commons-digester3.version>
         <org.springframe.version>4.2.2.RELEASE</org.springframe.version>
+        <core-renderer.version>R8</core-renderer.version>
     </properties>
 
     <dependencies>
@@ -109,6 +110,13 @@
                     <artifactId>log4j</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <!-- java 2d renderer -->
+        <dependency>
+            <groupId>org.xhtmlrenderer</groupId>
+            <artifactId>core-renderer</artifactId>
+            <version>${core-renderer.version}</version>
         </dependency>
 
         <!-- log -->
