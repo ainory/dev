@@ -18,7 +18,7 @@
         <jsch.version>0.1.54</jsch.version>
         <org.slf4j.version>1.7.21</org.slf4j.version>
         <ch.qos.logback.version>1.2.9</ch.qos.logback.version>
-        <jackson-core.version>2.13.4.1</jackson-core.version>
+        <jackson-core.version>2.13.4.2</jackson-core.version>
         <httpcore.version>4.4.5</httpcore.version>
         <elasticsearch-rest-high-level-client.version>5.6.0</elasticsearch-rest-high-level-client.version>
         <kafka_2.11.version>0.10.0.1</kafka_2.11.version>
